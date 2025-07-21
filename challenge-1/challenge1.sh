@@ -1,6 +1,5 @@
 #!/bin/bash
 
-#LOG_DIR="./access-logs"
 LOG_DIR="./2023-02-16-access-logs"
 NOW=$(date "+%d/%b/%Y:%H:%M:%S")
 AGO=$(date -d "10 minutes ago" "+%d/%b/%Y:%H:%M:%S")
